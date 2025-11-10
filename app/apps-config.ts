@@ -7,6 +7,7 @@ export interface AppConfig {
     privacyPolicy?: boolean;
     termsOfService?: boolean;
     userAgreement?: boolean;
+    about?: boolean;
   };
 }
 
@@ -14,11 +15,12 @@ export const apps: AppConfig[] = [
   {
     id: "aidimsum",
     name: "AiDimsum",
-    description: "AI-powered dimsum ordering and discovery app",
+    description: "AI-powered Cantonese learning platform",
     documents: {
       privacyPolicy: true,
       termsOfService: false,
       userAgreement: false,
+      about: true,
     },
   },
   // Add more apps here as needed
